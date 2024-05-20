@@ -20,5 +20,24 @@ const styles = StyleSheet.create({
 		width: 170,
 		resizeMode: 'contain',
 	},
+	input: {
+		width: '70%',
+		backgroundColor: '#FFFFFF',
+		borderRadius: '100px',
+		paddingVertical: '15px',
+		paddingHorizontal: '25px',
+	},
+	btn: {
+		width: '80%',
+		paddingVertical: '20px',
+		backgroundColor: 'red',
+		borderRadius: '20px'
+	},
+	btnText:{
+		textAlign: 'center',
+	},
+	textSignUp:{
+		color: 'red'
+	}
 })
 export default styles

@@ -20,5 +20,12 @@ const styles = StyleSheet.create({
 		width: 170,
 		resizeMode: 'contain',
 	},
+	input: {
+		width: '70%',
+		backgroundColor: '#FFFFFF',
+		borderRadius: '100px',
+		paddingVertical: '15px',
+		paddingHorizontal: '25px',
+	},
 })
 export default styles
