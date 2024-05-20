@@ -27,5 +27,17 @@ const styles = StyleSheet.create({
 		paddingVertical: '15px',
 		paddingHorizontal: '25px',
 	},
+	btn: {
+		width: '70%',
+		paddingVertical: 10,
+		backgroundColor: '#50C2C9',
+		borderRadius: 20,
+	},
+	text: {
+		textAlign: 'center',
+	},
+	textUrl: {
+		color: '#50C2C9',
+	},
 })
 export default styles

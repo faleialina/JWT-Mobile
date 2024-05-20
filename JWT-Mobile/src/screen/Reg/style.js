@@ -20,24 +20,28 @@ const styles = StyleSheet.create({
 		width: 170,
 		resizeMode: 'contain',
 	},
+	lastText: {
+		paddingBottom: 60,
+	},
 	input: {
-		width: '70%',
+		width: '80%',
 		backgroundColor: '#FFFFFF',
-		borderRadius: '100px',
-		paddingVertical: '15px',
-		paddingHorizontal: '25px',
+		borderRadius: 100,
+		paddingVertical: 15,
+		paddingHorizontal: 25,
 	},
 	btn: {
+		marginTop: 30,
 		width: '80%',
-		paddingVertical: '20px',
-		backgroundColor: 'red',
-		borderRadius: '20px'
+		paddingVertical: 10,
+		backgroundColor: '#50C2C9',
+		borderRadius: 20,
 	},
-	btnText:{
+	text: {
 		textAlign: 'center',
 	},
-	textSignUp:{
-		color: 'red'
-	}
+	textUrl: {
+		color: '#50C2C9',
+	},
 })
 export default styles

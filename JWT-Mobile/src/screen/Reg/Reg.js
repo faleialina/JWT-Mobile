@@ -6,24 +6,34 @@ export default function Reg({ navigation }) {
 		<View style={styles.container}>
 			<View style={styles.card}>
 				<Text>Welcome to Onboard! </Text>
-				<TextInput style={styles.input} placeholder='Enter your Email' />
-				<TextInput style={styles.input} placeholder='Enter your Email' />
+				<Text style={styles.lastText}>Let’s help to meet up your tasks.</Text>
+				<TextInput style={styles.input} placeholder='Enter your full name' />
 				<TextInput style={styles.input} placeholder='Enter your Email' />
 				<TextInput
 					style={styles.input}
 					secureTextEntry={true}
 					placeholder='Enter Password'
 				/>
-				<Text>Forget password ?</Text>
+				<TextInput
+					style={styles.input}
+					secureTextEntry={true}
+					placeholder='Confirm password'
+				/>
 				<Pressable
 					style={styles.btn}
-					onPress={() => navigation.navigate('Home')}
+					onPress={() => navigation.navigate('User')}
 				>
-					<Text style={styles.btnText}>{'Register'}</Text>
+					<Text style={styles.text}>Register</Text>
 				</Pressable>
-				{/* <Button title='Register' style={styles.btn}/> */}
-				<Text onPress={() => navigation.navigate('Home')}>
-					Don’t have an account ?<Text style={styles.textSignUp}> Sign Up</Text>
+				<Text>
+					Already have an account ?
+					<Text
+						style={styles.textUrl}
+						onPress={() => navigation.navigate('Auth')}
+					>
+						{' '}
+						Sign In
+					</Text>{' '}
 				</Text>
 			</View>
 		</View>

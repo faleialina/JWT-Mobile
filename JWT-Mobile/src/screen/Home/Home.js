@@ -1,4 +1,4 @@
-import { Button, Image, Text, View } from 'react-native'
+import { Image, Pressable, Text, View } from 'react-native'
 import styles from './style'
 
 export default function Home({ navigation }) {
@@ -15,10 +15,12 @@ export default function Home({ navigation }) {
 					Consequat urna quam felis interdum quisque. Malesuada adipiscing
 					tristique ut eget sed.
 				</Text>
-				<Button
-					title='Get Started'
+				<Pressable
+					style={styles.btn}
 					onPress={() => navigation.navigate('Auth')}
-				/>
+				>
+					<Text style={styles.text}>Get Started</Text>
+				</Pressable>
 			</View>
 		</View>
 	)

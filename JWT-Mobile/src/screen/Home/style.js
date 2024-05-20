@@ -20,5 +20,14 @@ const styles = StyleSheet.create({
 		width: 170,
 		resizeMode: 'contain',
 	},
+	btn: {
+		width: '80%',
+		paddingVertical: 10,
+		backgroundColor: '#50C2C9',
+		borderRadius: 20
+	},
+	text: {
+		textAlign: 'center'
+	},
 })
 export default styles
