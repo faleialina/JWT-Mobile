@@ -9,6 +9,7 @@ import {
 	TextInput,
 	View,
 } from 'react-native'
+import Clock from '../../components/Clock/Clock'
 import styles from './style'
 
 export default function User() {
@@ -118,6 +119,7 @@ export default function User() {
 			<View style={styles.wrapperTextGood}>
 				<Text style={styles.textGood}>Good Afternoon</Text>
 			</View>
+			<Clock />
 			<View style={styles.wrapperTextList}>
 				<Text style={styles.textList}>Task list</Text>
 			</View>
